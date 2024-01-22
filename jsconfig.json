@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "tailwindcss/*": ["./tailwind.config.js"]
+      }
+    },
+    "exclude": ["node_modules", "dist"]
+  }
