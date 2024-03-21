@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Netflix Website</title>
+</head>
+<body>
+    <!-- first page start -->
+    <section class="w-[100%] h-[100vh] bg-[url('assets/images/background.jpg')] bg-center bg-cover ">
+        <!-- <div class="bg-[#1f1d1d] bg-opacity-[50%] h-[100%] w-[100%]"></div> -->
+        <div class="w-[100%] h-[100vh] bg-[rgba(0,0,0,0.5)]">
+            <header class="max-w-[1170px] mx-auto ">
+                <div class="flex flex-row justify-between sm:mx-[110px] mx-[10px] py-[10px]">
+                   <figure class="pl-[0.5px] pr-[0.5px]">
+                     <img src="assets/images/Netflix-Logo.png" alt="" class="sm:w-[90px] w-[60px]">
+                   </figure>
+                   <div class="flex flex-row justify-end items-center p-[2px]">
+                      <div class="mr-[12px]">
+                        <select name="" id="" class="pl-[0.5px] pr-[0.5px] bg-black text-white border-[1px] rounded">
+                            <option value="English">English</option>
+                            <option value="Hindi">Hindi</option>
+                        </select>
+                      </div>
+                      <button class="text-white bg-red-800 p-[0.5px] border-[1px] rounded border-none">Sign in</button>
+                   </div>
+                </div>
+            </header>
+            <div class="max-w-[1170px] mx-auto  sm:my-[100px] my-[40px] text-center text-white sm:p-[10px] p-[5px]">
+               <h2 class="font-extrabold sm:text-[32px] text-[18px]">Enjoy big movies, hit series and more from ₹149.</h2>
+               <h4 class="font-medium sm:text-[18px] text-[14px] mt-[10px]">Join today. Cancel anytime.</h4>
+               <p class="font-normal mt-[10px] sm:text-[16px] text-[14px]">Ready to watch? Enter your email to create or restart your membership.</p>
+               <div class="max-w-[400px] mx-auto my-[10px] sm:px-[10px] px-[40px]">
+                  <form action="" class="grid gap-[10px] sm:grid-cols-[70%_auto] grid-cols-1">
+                    <input type="email" class="bg-[rgba(38,37,37,0.5)] border-[1px] rounded border-[#ccc] p-[5px] placeholder:text-white" placeholder="Email address">
+                    <button class=" bg-red-700 rounded">Get Started ></button>
+                  </form>
+               </div>
+            </div>
+        </div>  
+    </section>
+    <!-- first page end -->
+    <!-- second page start -->
+    <section class="w-[100%] bg-black border-t-[5px] border-t-[#605d5d] sm:py-[60px] py-[30px]">
+      <div class="max-w-[1100px]  mx-auto sm:px-[100px] px-[50px] ">
+        <div class="grid sm:grid-cols-2 grid-cols-1 items-center justify-center">
+            <div class="text-white">
+                <h2 class="sm:text-[30px] text-[20px] font-bold">Enjoy on your TV</h2>
+                <p class="sm:text-[18px] text-[12px]">Watch on smart TVs, PlayStation, Xbox, Chromecast, <br>Apple TV, Blu-ray players and more.</p>
+            </div>
+            <figure class="relative">
+                <video class="absolute w-[54%] left-[10.5%] bottom-[25%] z-[1]" autoplay>
+                    <source src="assets/videos/video-tv-in-0819.m4v">
+                </video>
+                <img src="assets/images/tv.png" alt="" class="w-[75%] relative z-[2]">
+            </figure>
+        </div>
+      </div>
+    </section>
+    <!-- second page end -->
+    <!-- third page start -->
+    <section class="w-[100%] bg-black border-t-[5px] border-t-[#605d5d] sm:py-[50px] py-[20px]">
+      <div class="max-w-[1170px] mx-auto sm:px-[100px] px-[50px]">
+         <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+           <figure class=" relative m:order-1 order-2 mx-auto">
+              <img src="assets/images/mobile-0819.jpg" alt="" class="sm:w-[100%] h-[60%]">
+              <div class=" max-h-[70px] sm:w-[60%] w-[90%] absolute sm:left-[20%] left-[5%] bottom-[0px] border-[1px] border-[#ccc] rounded-[1px] grid grid-cols-[70%_auto] items-center bg-black">
+                <div class=" grid grid-cols-[25%_auto] gap-[8px] p-[3px] items-center justify-center">
+                  <img src="assets/images/boxshot.png">
+                  <div class="text-white">
+                    <h3 class="text-[13px] leading-4">Stranger Things</h3>
+                    <span class="text-[blue] text-[9px]"> Downloading...</span>
+                  </div>
+                </div>
+                <div class="w-[80%] h-[90%]">
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif" alt="" class="object-cover">
+                </div>
+              </div>
+           </figure>
+           <div class="text-white sm:space-y-2 space-y-1 sm:order-2 order-1 mx-auto">
+             <h2 class="sm:text-[28px] text-[18px] font-bold">Download your shows to watch offline</h2>
+             <p class="sm:text-[15px] text-[10px] font-normal">Save your favourites easily and always have something to watch.</p>
+           </div>
+         </div>
+      </div>
+    </section>
+    <!-- third page end -->
+    <!-- fourth page start -->
+    <section class="w-[100%] bg-black border-t-[5px] border-t-[#605d5d] sm:py-[60px] py-[30px]">
+        <div class="max-w-[1100px]  mx-auto sm:px-[100px] px-[50px] ">
+          <div class="grid sm:grid-cols-2 grid-cols-1 items-center justify-center">
+              <div class="text-white">
+                  <h2 class="sm:text-[30px] text-[20px] font-bold leading-[50px]">Watch everywhere</h2>
+                  <p class="sm:text-[18px] text-[12px]">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+              </div>
+              <figure class="relative">
+                  <video autoplay class="absolute w-[60%] left-[19%] bottom-[44%] z-[1]">
+                    <source src="assets/videos/video-devices-in.m4v">
+                  </video>
+                  <img src="assets/images/device-pile-in.png" alt="" class="relative z-[2]">
+              </figure>
+          </div>
+        </div>
+      </section>
+    <!-- fourth page end -->
+    <!-- fifth page start -->
+    <section class="w-[100%] bg-black border-t-[5px] border-t-[#605d5d] sm:py-[50px] py-[20px]">
+        <div class="max-w-[1170px] mx-auto sm:px-[100px] px-[50px]">
+           <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+             <figure class=" relative m:order-1 order-2 mx-auto">
+                <img src="assets/images/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png" alt="">
+             </figure>
+             <div class="text-white sm:space-y-2 space-y-1 sm:order-2 order-1 mx-auto">
+               <h2 class="sm:text-[28px] text-[18px] font-bold">Create profiles for kids</h2>
+               <p class="sm:text-[15px] text-[10px] font-normal">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+             </div>
+           </div>
+        </div>
+      </section>
+    <!-- fifth page end -->
+    <!-- sixth page start -->
+    <section class="w-[100%] bg-black border-t-[5px] border-t-[#605d5d] sm:py-[60px] py-[30px]">
+       <div class="max-w-1170px mx-auto sm:py-[10px] py-[5px] px-[10px]">
+        <p class="text-white text-center font-normal mt-[10px] sm:text-[16px] text-[14px]">Ready to watch? Enter your email to create or restart your membership.</p>
+        <div class="max-w-[400px] mx-auto my-[10px] sm:px-[10px] px-[40px]">
+           <form action="" class="grid gap-[10px] sm:grid-cols-[70%_auto] grid-cols-1">
+             <input type="email" class="bg-[rgba(38,37,37,0.5)] border-[1px] rounded border-[#ccc] p-[5px] placeholder:text-white" placeholder="Email address">
+             <button class=" bg-red-700 rounded">Get Started ></button>
+           </form>
+        </div>
+       </div>
+    </section>
+    <!-- sixth page end -->
+    <!-- seventh page start -->
+    <footer class="w-[100%] bg-black border-t-[5px] border-t-[#605d5d] sm:py-[40px] py-[10px]">
+        <div class="max-w-[1170px] mx-auto sm:px-[80px] px-[30px]">
+            <h3 class="text-[#ccc] text-[12px] mb-[10px]">Questions? Call <a class="underline" href="tel:000-800-919-1694">000-800-919-1694</a></h3>
+            <div class="grid sm:grid-cols-3 grid-cols-1">
+                 <div>
+                    <ul class="text-white text-[10px]">
+                        <li class="mb-[8px]"><a class="underline" href="#">FAQ</a></li>
+                        <li class="mb-[8px]"><a class="underline" href="#">Investor Relations</a></li>
+                        <li class="mb-[8px]"><a class="underline" href="#">Privacy</a></li>
+                        <li class="mb-[8px]"><a class="underline" href="#">Speed Test</a></li>
+                    </ul>
+                 </div>
+                 <div>
+                    <ul class="text-white text-[10px]">
+                        <li class="mb-[8px]"><a class="underline" href="#">Help Centre</a></li>
+                        <li class="mb-[8px]"><a class="underline" href="#">Jobs</a></li>
+                        <li class="mb-[8px]"><a class="underline" href="#">Cookie Preferences</a></li>
+                        <li class="mb-[8px]"><a class="underline" href="#">Legal Notices</a></li>
+                    </ul>
+                 </div>
+                 <div>
+                    <ul class="text-white text-[10px]">
+                        <li class="mb-[8px]"><a class="underline" href="#">Media Centre</a></li>
+                        <li class="mb-[8px]"><a class="underline" href="#">Terms of Use</a></li>
+                        <li class="mb-[8px]"><a class="underline" href="#">Contact Us</a></li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </footer>
+    <!-- seventh page end -->
+    <script src="script.js"></script>
+</body>
+</html>
